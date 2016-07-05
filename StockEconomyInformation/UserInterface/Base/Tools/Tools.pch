@@ -1,0 +1,55 @@
+//
+//  Tools.pch
+//  StockEconomyInformation
+//
+//  Created by 陆金鑫 on 16/1/9.
+//  Copyright © 2016年 陆金鑫. All rights reserved.
+//
+
+#ifndef Tools_pch
+#define Tools_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//屏幕尺寸:
+#define KScreenWidth [UIScreen mainScreen].bounds.size.width
+#define KScreenHeight [UIScreen mainScreen].bounds.size.height
+
+
+
+#import "UIView+UIViewController.h"
+
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+NS_INLINE void tipWithMessage(NSString *message){
+    dispatch_async(dispatch_get_main_queue(), ^{
+        UIAlertView *alerView = [[UIAlertView alloc] initWithTitle:@"提示" message:message delegate:nil cancelButtonTitle:nil otherButtonTitles:nil, nil];
+        [alerView show];
+        [alerView performSelector:@selector(dismissWithClickedButtonIndex:animated:) withObject:@[@0, @1] afterDelay:1.5];
+    });
+}
+
+
+//开放平台的key：
+//APIStore:一个用户只有一个apikey，可以调用平台所有即用服务
+#define kAPIStoreKey @"0b507244f3fda7178127aa8616f68f6f"
+
+//聚合数据:每个服务都有一个key
+//聚合股票查询AppKey
+#define kJHGuPiaoChaXunKey @"dcf4ff35ad3575eadbd302dac2a2fbe7"
+//聚合股票数据AppKey
+#define kJHGuPiaoShuJuKey @"7f0cf36578c094a15b4437534068713c"
+
+
+//极速数据appkey
+#define kJiSuAppkey @"替换成自己的"
+
+
+
+
+
+
+
+#endif /* Tools_pch */

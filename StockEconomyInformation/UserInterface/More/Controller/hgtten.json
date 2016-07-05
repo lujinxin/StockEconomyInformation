@@ -1,0 +1,117 @@
+{
+  "total": 10,
+  "success": true,
+  "info": "",
+  "rows": [
+    {
+      "dattrade": "2016-05-16 00:00:00",
+      "numorder": 5.0,
+      "vc2marcode": "600009",
+      "vc2name": "上海机场",
+      "numclose": 28.15,
+      "numratio": 0.86,
+      "numbmount": 38805881.0,
+      "numsmount": 5670439.0,
+      "numsummount": 44476320.0
+    },
+    {
+      "dattrade": "2016-05-16 00:00:00",
+      "numorder": 9.0,
+      "vc2marcode": "600016",
+      "vc2name": "民生银行",
+      "numclose": 9.20,
+      "numratio": 0.11,
+      "numbmount": 20243292.0,
+      "numsmount": 5127787.0,
+      "numsummount": 25371079.0
+    },
+    {
+      "dattrade": "2016-05-16 00:00:00",
+      "numorder": 10.0,
+      "vc2marcode": "600030",
+      "vc2name": "中信证券",
+      "numclose": 15.57,
+      "numratio": 1.04,
+      "numbmount": 19316802.0,
+      "numsmount": 2528062.0,
+      "numsummount": 21844864.0
+    },
+    {
+      "dattrade": "2016-05-16 00:00:00",
+      "numorder": 7.0,
+      "vc2marcode": "600066",
+      "vc2name": "宇通客车",
+      "numclose": 21.62,
+      "numratio": 0.93,
+      "numbmount": 8073276.0,
+      "numsmount": 21471645.0,
+      "numsummount": 29544921.0
+    },
+    {
+      "dattrade": "2016-05-16 00:00:00",
+      "numorder": 8.0,
+      "vc2marcode": "600276",
+      "vc2name": "恒瑞医药",
+      "numclose": 47.01,
+      "numratio": 0.41,
+      "numbmount": 24521751.0,
+      "numsmount": 873040.0,
+      "numsummount": 25394791.0
+    },
+    {
+      "dattrade": "2016-05-16 00:00:00",
+      "numorder": 2.0,
+      "vc2marcode": "600519",
+      "vc2name": "贵州茅台",
+      "numclose": 251.63,
+      "numratio": 0.27,
+      "numbmount": 27330798.0,
+      "numsmount": 28279534.0,
+      "numsummount": 55610332.0
+    },
+    {
+      "dattrade": "2016-05-16 00:00:00",
+      "numorder": 3.0,
+      "vc2marcode": "600585",
+      "vc2name": "海螺水泥",
+      "numclose": 14.51,
+      "numratio": 0.0,
+      "numbmount": 45767381.0,
+      "numsmount": 8500379.0,
+      "numsummount": 54267760.0
+    },
+    {
+      "dattrade": "2016-05-16 00:00:00",
+      "numorder": 4.0,
+      "vc2marcode": "600887",
+      "vc2name": "伊利股份",
+      "numclose": 15.48,
+      "numratio": 2.79,
+      "numbmount": 43567455.0,
+      "numsmount": 5332987.0,
+      "numsummount": 48900442.0
+    },
+    {
+      "dattrade": "2016-05-16 00:00:00",
+      "numorder": 1.0,
+      "vc2marcode": "600900",
+      "vc2name": "长江电力",
+      "numclose": 12.49,
+      "numratio": 0.32,
+      "numbmount": 18094646.0,
+      "numsmount": 50395215.0,
+      "numsummount": 68489861.0
+    },
+    {
+      "dattrade": "2016-05-16 00:00:00",
+      "numorder": 6.0,
+      "vc2marcode": "601021",
+      "vc2name": "春秋航空",
+      "numclose": 50.83,
+      "numratio": -1.22,
+      "numbmount": 7040919.0,
+      "numsmount": 26497201.0,
+      "numsummount": 33538120.0
+    }
+  ]
+}

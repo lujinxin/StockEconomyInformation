@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="FJN-pd-Dle">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Base Navigation Controller-->
+        <scene sceneID="oJD-bo-xG0">
+            <objects>
+                <navigationController id="FJN-pd-Dle" customClass="BaseNavigationController" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="G13-n1-rxM">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="B3C-Ed-uMs" kind="relationship" relationship="rootViewController" id="L6n-ed-K5v"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nvd-iF-uK6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-671" y="290"/>
+        </scene>
+        <!--列表-->
+        <scene sceneID="1GP-6o-vMe">
+            <objects>
+                <viewController id="B3C-Ed-uMs" customClass="ListViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="v7t-Yy-vH7"/>
+                        <viewControllerLayoutGuide type="bottom" id="fqe-Ou-mSf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lP8-1G-kDE">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="列表" id="VXA-xl-sn0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tf6-RA-P69" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7" y="290"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>股票</string>
+		<key>urlString</key>
+		<string>http://api.jisuapi.com/news/search?keyword=股票&amp;appkey=f48b9365092f8b40</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>资金</string>
+		<key>urlString</key>
+		<string>http://api.jisuapi.com/news/search?keyword=资金&amp;appkey=f48b9365092f8b40</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>财经</string>
+		<key>urlString</key>
+		<string>http://api.jisuapi.com/news/search?keyword=财经&amp;appkey=f48b9365092f8b40</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>宏观</string>
+		<key>urlString</key>
+		<string>http://api.jisuapi.com/news/search?keyword=宏观&amp;appkey=f48b9365092f8b40</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>金融</string>
+		<key>urlString</key>
+		<string>http://api.jisuapi.com/news/search?keyword=金融&amp;appkey=f48b9365092f8b40</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>中国经济</string>
+		<key>urlString</key>
+		<string>http://api.jisuapi.com/news/search?keyword=中国经济&amp;appkey=f48b9365092f8b40</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>全球经济</string>
+		<key>urlString</key>
+		<string>http://api.jisuapi.com/news/search?keyword=全球经济&amp;appkey=f48b9365092f8b40</string>
+	</dict>
+</array>
+</plist>
